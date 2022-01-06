@@ -3,10 +3,10 @@ from PIL import ImageTk,Image
 
 root=Tk()
 root.title("Image Viewer App")
-root.geometry("400x300")
-img1= ImageTk.PhotoImage(Image.open("C:/Users/Asus/Pictures/photoes/ab.jpg"))
-img2= ImageTk.PhotoImage(Image.open("C:/Users/Asus/Pictures/photoes/floyd.jpg"))
-img3= ImageTk.PhotoImage(Image.open("C:/Users/Asus/Pictures/photoes/kevin.jpg"))
+root.geometry("500x400")
+img1= ImageTk.PhotoImage(Image.open("C:/Users/BIKESH/Desktop/image/OO.jpg"))
+img2= ImageTk.PhotoImage(Image.open("C:/Users/BIKESH/Desktop/image/NEW.jpg"))
+img3= ImageTk.PhotoImage(Image.open("C:/Users/BIKESH/Desktop/image/BAD.jpg"))
 image_array=[img1,img2,img3]
 label_var= Label(image=img1)
 
